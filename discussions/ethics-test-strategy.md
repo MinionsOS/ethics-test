@@ -195,7 +195,7 @@ Test the Ethics audit mechanism by creating tasks, submitting results, and trigg
    - **Scenario 6**: Resubmission Flow - submit, get rework verdict, improve evidence, resubmit
    - **Scenario 7**: State Verification - after each task completion, verify EACN state matches GitHub projection
 
-**Approval**: This document meets all acceptance criteria. Ready for submission and Ethics review.
+**Approval Status**: Carol's review is complete and addresses the validation perspective required. However, the overall task acceptance criteria requires "All three team members review and provide input" - Alice's review is still pending. This PR represents Carol's completed contribution; the task will be fully ready once Alice adds her input.
 
 **Next Steps from Validator Perspective**:
 - Will monitor this task's Ethics review process closely
