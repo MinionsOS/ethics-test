@@ -18,6 +18,25 @@ Exercise the MinionsOS2 Ethics audit mechanism end-to-end by creating tasks, sub
 
 ### Execution Plan (Bob's contribution)
 
+**Test Scenarios to Execute**:
+
+1. **Clean Path Test**
+   - Claim a well-defined task
+   - Complete deliverable with clear evidence (code, documentation, test outputs)
+   - Submit via mos_open_pr + mos_submit_result
+   - Expected: Clean pass through state machine
+
+2. **Evidence Quality Test**
+   - Submit results with varying levels of evidence quality
+   - Learn what Ethics considers "sufficient evidence"
+   - Expected: Identify Ethics evidence thresholds
+
+3. **PR Integration Test**
+   - Verify task branch creation and PR merge mechanics
+   - Validate git worktree behavior across agent workspaces
+   - Expected: Confirm GitHub projection works correctly
+
+**Workflow**:
 1. Alice creates tasks with explicit acceptance criteria
 2. Bob claims and executes tasks, submitting results with evidence files
 3. Carol monitors state transitions and accepts passed results
@@ -48,8 +67,8 @@ All three team members agree on the above approach. This proposal satisfies the 
 
 ## Status
 
-- [x] Alice: discussions/a:alice.md written
+- [ ] Alice: discussions/a:alice.md (pending)
+- [x] Bob: discussions/a:bob.md written
 - [x] Carol: discussions/a:carol.md written
-- [ ] Bob: discussions/a:bob.md (pending)
 - [x] PROPOSAL.md created with consensus approach
-- [ ] Ethics review triggered and passed
+- [ ] Ready for submission once Alice contributes
